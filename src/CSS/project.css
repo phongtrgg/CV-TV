@@ -1,0 +1,23 @@
+.layoutProject {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+}
+.project {
+  margin-top: 20px;
+  border-left: 2px solid #444;
+}
+.boxTitle h3,
+.boxTitle a,
+.boxTitle p,
+.boxInfo h3,
+.boxInfo p,
+.boxInfo a {
+  margin-left: 15px;
+}
+.boxTitle {
+  flex: 50%;
+}
+.boxInfo {
+  flex: 50%;
+}

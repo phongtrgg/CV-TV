@@ -1,0 +1,48 @@
+.layoutContent {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+}
+
+.edu {
+  flex: 60%;
+  position: relative;
+}
+.skill {
+  margin-left: 2%;
+  flex: 40%;
+}
+.title {
+  border-bottom: 2px solid var(--main-color);
+}
+.boxEdu {
+  border-left: 2px solid #444;
+}
+.boxEdu h3,
+.boxEdu p,
+.boxSkill h3,
+.boxSkill p,
+.boxExp h3,
+.boxExp p {
+  margin-left: 15px;
+}
+
+.layoutExp {
+  margin-top: 15px;
+}
+.boxExp {
+  margin-top: 20px;
+  border-left: 2px solid #444;
+  display: flex;
+}
+.nameExp {
+  flex: 40%;
+}
+.infoExp {
+  flex: 60%;
+}
+@media (max-width: 600px) {
+  .layoutContent {
+    display: grid;
+  }
+}
